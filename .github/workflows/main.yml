@@ -2,8 +2,8 @@ name: mains
 on:
   push:
    branches:
+     - master
      - main
-     - AST
      - SAST
 jobs:
   build:
