@@ -1,4 +1,4 @@
-name: mains
+name: APPSEC
 on:
   push:
    branches:
