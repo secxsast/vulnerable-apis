@@ -1,4 +1,4 @@
-name: APPSEC
+name: Cx_Orlando
 on:
   push:
    branches:
@@ -17,8 +17,6 @@ jobs:
          project_name: ${{ github.repository }}
          cx_tenant: nfr_trustdimension
          base_uri: https://ast.checkmarx.net
-         cx_client_id: ${{ secrets.CLIENT_ID }}
-         cx_client_secret: ${{ secrets.SECRET }}
+         cx_client_id: ${{ secrets.CX_CLIENT_ID }}
+         cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
          branch: ${{ github.ref }}
-         additional_params: 
-          --threshold "sast-high=1;kics-high=1;sca-high=1;apisec-high=1"
