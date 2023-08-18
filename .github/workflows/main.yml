@@ -1,4 +1,4 @@
-name: Cx_Orlando
+name: CxAST
 on:
   push:
    branches:
